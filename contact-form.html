@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Beauty & Spa | Rejuvenate Your Body & Mind</title>
+    <meta name="description" content="Experience luxury beauty treatments and spa services designed to refresh your body and mind. Book your appointment today!">
+    <link rel="stylesheet" href="beauty.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="beauty.html">Home</a></li>
+                <li><a href="servicesbeauty.html">Services</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="aboutbeauty.html">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <body>
+   <section class="booking">
+    <h2>Book Your Appointment</h2>
+    <form method="POST" action="feedbackbeauty.html">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="service">Select Service:</label>
+        <select id="service" name="service" required>
+            <option value="">-- Choose a Service --</option>
+            <option value="massage">Face Treatment</option>
+            <option value="spa">Full-Body Spa</option>
+            <option value="facial">Massages</option>
+            <option value="consultation">Skincare Consultation</option>
+            <option value="manicure">Waxing</option>
+        </select>
+
+        <label for="date">Preferred Date:</label>
+        <input type="date" id="date" name="date" required>
+
+        <button type="submit" class="cta-button">Submit Booking</button>
+    </form>
+</section>
+
+</body>
+<footer>
+        <p>📍 Visit us in Johannesburg, Lenasia South EXT1 | 📞 Call: +27 65 862 4114 | ✉️ Email: salighakaldine@gmail.com</p>
+        <p>&copy; 2025 Beauty & Spa. All rights reserved.</p>
+    </footer>
+    </html>
